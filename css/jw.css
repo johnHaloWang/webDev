@@ -1,0 +1,698 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Droid Serif', serif;
+}
+/* "navbar navbar-default" */
+#topNav{
+    background:transparent;
+    border-color: transparent;
+    /* height: 100px; */
+}
+
+.logo{
+    background-image:url(../img/logo.png); width: 178px; height: 60px;background-repeat: no-repeat; border-color: transparent;
+}
+.footer {
+    margin: 0px;
+    padding: 0px 0px 0px;
+    color: white;
+    font-size: xx-small;
+}
+#nav-link{
+    height: 68px;
+}
+#testing1{
+    height:0px;
+}
+.productItem, .brandItem {
+    margin: 0px;
+    padding: 0px 0px 0px;
+    border: white medium solid;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+.productItem:hover{
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color:rgba(255,255,255,0.7);
+    opacity:1;
+
+}
+.brandItemRow {
+
+}
+.specialSpacer {
+    background-color:rgba(255,255,255,0.7);
+    opacity:1;
+}
+#footerTxt1{
+    font-size: 1pt;
+    color: white;
+}
+#footerTxt2{
+    font-size: 1pt;
+    color: white;
+}
+#footerTxt3{
+    font-size: 1pt;
+    color: white;
+}
+/* --- nav-pills --- */
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+
+
+
+
+
+/* Featurettes
+------------------------- */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+/* Large devices (large desktops, 1200px and up) */
+
+
+/* custom style */
+/* navbar  */
+.navbar-default {
+    background-color: transparent;
+    /* border-color: blue; */
+}
+.spacer {
+
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #777;
+
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+
+}
+
+/* link */
+.navbar-nav > li > a {
+
+    padding: 0px 0px 0px;
+    color: white;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    font-size: 8px;
+    height: 20px;
+    width: 80px;
+
+    text-align: center;
+
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color:rgba(255,255,255,0.7);
+    opacity:1;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+
+
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color:rgba(255,255,255,0.7);
+    opacity:1;
+
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: transparent;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+.nav.nav-pills{
+
+}
+.nav-pills> li > a {
+
+    padding: 0px 0px 0px;
+    color: white;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    font-size: 10px;
+    height: 20px;
+    width: 80px;
+    float: right;
+    text-align: center;
+}
+.nav-pills>li>a:hover,
+.nav-pills>li>a:focus{
+    /*overflow: hidden;*/
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color:rgba(255,255,255,0.7);
+    opacity:1;
+}
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+    height: auto;
+    margin-bottom: 0px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 396px;
+    background-color: transparent;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: auto;
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: normal;
+}
+.marketing .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* Featurettes
+------------------------- */
+.featurette-divider {
+    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .carousel .item {
+        height: 396px;
+        background-color: transparent;
+    }
+    .productItemRow{
+        height: 248px;
+    }
+    .productItem{
+        width: 248px;
+        height: 248px;
+    }
+    .brandItemRow{
+         height: 130px;
+    }
+    .brandItem{
+        width: 130px;
+        height: 130px;
+        float: left;
+    }
+    .brand-col {
+        width: 146px;
+    }
+    /* 97 388px */
+}
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 1100px) {
+    .carousel .item {
+        height: 315px;
+        background-color: transparent;
+    }
+    .productItemRow{
+        height: 200px;
+    }
+    .productItem{
+        width: 200px;
+        height: 200px;
+    }
+    .productItem{
+        width: 140px;
+        height: 140px;
+    }
+    .brandItemRow{
+        height: 108px;
+    }
+    .brandItem{
+        width: 108px;
+        height: 108px;
+        float: left;
+    }
+    .brand-col {
+        width: 120px;
+    }
+
+    /* 81 324 px */
+}
+@media (max-width: 1000px) {
+
+    .carousel .item {
+        height: 300;
+        background-color: transparent;
+    }
+    .productItemRow{
+        height: 200px;
+    }
+    .productItem{
+        width: 200px;
+        height: 200px;
+    }
+    .productItem{
+        width: 140px;
+        height: 140px;
+    }
+    .brandItemRow{
+       /* height: 108px; */
+    }
+    .brandItem{
+        /*width: 108px;
+        height: 108px;
+        float: left;*/
+    }
+    .brand-col {
+        /*width: 120px;*/
+    }
+    /* 81 324 px */
+}
+@media (max-width: 992px) {
+    .carousel .item {
+        height: 315px;
+        background-color: transparent;
+    }
+    .productItemRow{
+        height: 140px;
+    }
+    .productItem{
+        width: 140px;
+        height: 140px;
+    }
+    .brandItemRow{
+       /* height: 80px;*/
+    }
+    .brandItem{
+       /* width: 80px;
+        height: 80px;
+        float: left;*/
+    }
+    .brand-col {
+        /*width: 93.5px;*/
+    }
+    /* 81 324 px */
+}
+@media (max-width: 850px) {
+    .carousel .item {
+        height: 315px;
+        background-color: transparent;
+    }
+    .productItemRow{
+        height: 140px;
+    }
+    .productItem{
+        width: 140px;
+        height: 140px;
+    }.productItem{
+         width: 140px;
+         height: 140px;
+     }
+    .brandItemRow{
+       /* height: 80px;*/
+    }
+    .brandItem{
+        /*width: 80px;
+        height: 80px;
+        float: left;*/
+    }
+    .brand-col {
+        /*width: 93.5px;*/
+    }
+    /* 81 324 px */
+}
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 765px) {
+    .carousel .item {
+        height: 315px;
+        background-color: transparent;
+    }
+    .productItemRow{
+        height: 140px;
+    }
+    .productItem{
+        width: 140px;
+        height: 140px;
+    }
+    .productItem{
+        width: 140px;
+        height: 140px;
+    }
+    .brandItemRow{
+        /*height: 49.5px;*/
+    }
+    .brandItem{
+       /* width: 49.5px;
+        height: 49.5px;
+        float: left;*/
+    }
+    .brand-col {
+        /*widht:50px;*/
+    }
+
+}
+
+@media (max-width: 760px) {
+    .carousel .item {
+        height: 315px;
+        background-color: transparent;
+    }
+    .productItemRow{
+        height: 140px;
+    }
+    .productItem{
+        width: 140px;
+        height: 140px;
+    }
+    .productItem{
+        width: 140px;
+        height: 140px;
+    }
+    .brandItemRow{
+        /*height: 43.5px;*/
+    }
+    .brandItem{
+        /*width: 43.5px;
+        height: 43.5px;
+        float: left;*/
+    }
+    .brand-col {
+        /*width: 44.5px;*/
+    }
+}
+@media (max-width: 750px) {
+
+    /* 768 */
+    /*(original height / original width) x new width = new height*/
+    /* 938 x 396 */
+    /* (938 / 396) * 767 =  482 */
+
+    .carousel .item {
+        height: 300px;
+        background-color: transparent;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: white;
+        text-align: left;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: white;
+    }
+    #nav-link{
+        height: 150px;
+    }
+    .navbar-nav > li > a{
+        text-align: left;
+    }
+    .spacer{
+        height: 0px;
+    }
+    #nav-col-data{
+
+    }
+    .nav-pills> li > a {
+        nav-left: auto;
+
+    }
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 0px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+    .featurette-heading {
+        font-size: 50px;
+    }
+    #testing1{
+
+    }
+    #testing2{
+        height: 0px;
+    }
+    .testing3{
+        height: 140px;
+    }
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+
+        margin-bottom: 0px;
+
+        font-size: 10px;
+        line-height: 1.4;
+    }
+    .carousel-caption h1 {
+        /*
+        margin-left: 120px;
+        margin-bottom: 100px;
+        font-size: 10px;
+        line-height: 1.4;
+        */
+    }
+    .featurette-heading {
+        font-size: 10px;
+    }
+}
+@media (max-width: 740px) {
+    .carousel .item {
+        height: 250px;
+        background-color: transparent;
+    }
+    .productItemRow{
+        height: 124px;
+    }
+    .productItem{
+        width: 124px;
+        height: 124px;
+    }
+}
+@media (max-width: 640px) {
+    .carousel .item {
+        height: 240px;
+        background-color: transparent;
+    }
+    .productItemRow{
+        height: 110px;
+    }
+    .productItem{
+        width: 110px;
+        height: 110px;
+    }
+}
+@media (max-width: 600px) {
+    .carousel .item {
+        height: 180px;
+        background-color: transparent;
+    }
+    .productItemRow{
+        height: 96px;
+    }
+    .productItem{
+        width: 96px;
+        height: 96px;
+    }
+}
+@media (max-width: 500px) {
+    .carousel .item {
+        height: 180px;
+        background-color: transparent;
+    }
+    .productItemRow{
+        height: 68px;
+    }
+    .productItem{
+        width: 68px;
+        height: 68px;
+    }
+}
+@media (max-width: 480px) {
+    .carousel .item {
+        height: 130px;
+        background-color: transparent;
+    }
+    .productItemRow{
+        height: 56px;
+    }
+    .productItem{
+        width: 56px;
+        height: 56px;
+    }
+    #footerTxt1{
+        font-size: 2pt;
+        color: white;
+        text-align: left;
+    }
+    #footerTxt2{
+        font-size: 2pt;
+        color: white;
+        text-align: left;
+    }
+    #footerTxt3{
+        font-size: 2pt;
+        color: white;
+        text-align: left;
+    }
+}
+@media (max-width: 450px) {
+    .carousel .item {
+        height: 130px;
+        background-color: transparent;
+    }
+    .productItemRow{
+        height: 35px;
+    }
+    .productItem{
+        width: 35px;
+        height: 35px;
+    }
+    #footerTxt1{
+        font-size: 2pt;
+        color: white;
+        text-align: left;
+    }
+    #footerTxt2{
+        font-size: 2pt;
+        color: white;
+        text-align: left;
+    }
+    #footerTxt3{
+        font-size: 2pt;
+        color: white;
+        text-align: left;
+    }
+}

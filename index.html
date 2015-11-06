@@ -3,349 +3,207 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" maximum-scale=1, user-scalable=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
-    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Lora%3A400%2C400italic%2C700%2C700italic%7CBitter%3A400&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jw.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/font-social.css" rel="stylesheet">
     <style>
-        body {
-            margin: 0px;
-            badding: 0px;
-            font-family: Metrics;
-        }
-        /* --- nav-pills --- */
-        .nav-pills {
-            padding-top: 16px;
-        }
-
-        .nav-pills > li > a {
-            padding: 0px 0px 0px;
-            min-height: 20px;
-            max-width: 70px;
-            min-width:70px;
-            color: white;
-            text-align: center;
-            border-radius: 0px;
-            -moz-border-radius: 0px;
-            -webkit-border-radius: 0px;
-        }
-
-        .nav-pills > li > a:hover {
-            padding: 0px 0px 0px;
-            min-height: 20px;
-            max-width: 70px;
-            min-width: 70px;
-            color: white;
-            text-align: center;
-            border-radius: 0px;
-            -moz-border-radius: 0px;
-            -webkit-border-radius: 0px;
-
-            overflow: hidden;
-            -webkit-transition: all 0.5s ease;
-            -moz-transition: all 0.5s ease;
-            -o-transition: all 0.5s ease;
-            transition: all 0.5s ease;
-            background-color:rgba(255,255,255,0.7);
-            opacity:9;
-        }
-        /* CUSTOMIZE THE NAVBAR
- -------------------------------------------------- */
-
-        /* Special class on .container surrounding .navbar, used for positioning it into place. */
-        .navbar-wrapper {
-            position: absolute;
-            top: 0;
-            right: 0;
-            left: 0;
-            z-index: 20;
-        }
-
-        /* Flip around the padding for proper display in narrow viewports */
-        .navbar-wrapper > .container {
-            padding-right: 0;
-            padding-left: 0;
-        }
-        .navbar-wrapper .navbar {
-            padding-right: 15px;
-            padding-left: 15px;
-        }
-        .navbar-wrapper .navbar .container {
-            width: auto;
-        }
-
-
-        /* CUSTOMIZE THE CAROUSEL
-        -------------------------------------------------- */
-
-        /* Carousel base class */
-        .carousel {
-            height: 396px;
-            margin-bottom: 0px;
-        }
-        /* Since positioning the image, we need to help out the caption */
-        .carousel-caption {
-            z-index: 10;
-        }
-
-        /* Declare heights because of positioning of img element */
-        .carousel .item {
-            height: 396px;
-            background-color: transparent;
-        }
-        .carousel-inner > .item > img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            min-width: 100%;
-            height: 396px;
-        }
-
-
-        /* MARKETING CONTENT
-        -------------------------------------------------- */
-
-        /* Center align the text within the three columns below the carousel */
-        .marketing .col-lg-4 {
-            margin-bottom: 20px;
-            text-align: center;
-        }
-        .marketing h2 {
-            font-weight: normal;
-        }
-        .marketing .col-lg-4 p {
-            margin-right: 10px;
-            margin-left: 10px;
-        }
-
-
-        /* Featurettes
-        ------------------------- */
-
-        .featurette-divider {
-            margin: 80px 0; /* Space out the Bootstrap <hr> more */
-        }
-
-        /* Thin out the marketing headings */
-        .featurette-heading {
-            font-weight: 300;
-            line-height: 1;
-            letter-spacing: -1px;
-        }
-        .cliente {
-            margin: 0px;
-            padding: 0px 0px 0px;
-            min-height: 218px;
-            max-width: 218px;
-            min-width: 218px;
-            color: white;
-            border: white medium solid;
-            border-radius: 0px;
-            -moz-border-radius: 0px;
-            -webkit-border-radius: 0px;
-        }
-        .cliente:hover {
-            overflow: hidden;
-            -webkit-transition: all 0.5s ease;
-            -moz-transition: all 0.5s ease;
-            -o-transition: all 0.5s ease;
-            transition: all 0.5s ease;
-            background-color:rgba(255,255,255,0.7);
-            opacity:1;
-        }
-        /* RESPONSIVE CSS
-        -------------------------------------------------- */
-
-        @media (min-width: 768px) {
-            /* Navbar positioning foo */
-            .navbar-wrapper {
-                margin-top: 20px;
-            }
-            .navbar-wrapper .container {
-                padding-right: 15px;
-                padding-left: 15px;
-            }
-            .navbar-wrapper .navbar {
-                padding-right: 0;
-                padding-left: 0;
-            }
-
-            /* The navbar becomes detached from the top, so we round the corners */
-            .navbar-wrapper .navbar {
-                border-radius: 4px;
-            }
-
-            /* Bump up size of carousel content */
-            .carousel-caption p {
-                margin-bottom: 0px;
-                font-size: 21px;
-                line-height: 1.4;
-            }
-
-            .featurette-heading {
-                font-size: 50px;
-            }
-        }
-
-        @media (min-width: 938px) {
-            .featurette-heading {
-                margin-top: 120px;
-            }
-        }
     </style>
     <![endif]-->
 
+
 </head>
+<body class="img-responsive" background="img\background.png" style="background-repeat: no-repeat; background-color: black;">
+<div class="container">
+    <!-- header logo & nav-->
+    <div class="row" style="background-color: transparent;">
+        <div class="container" style="background-color: transparent;">
+            <div class="row" style="background-color: transparent;">
+                <div class="col-sm-12" style="height: 16px; border-color: transparent; background-color: transparent"></div>
+                <div class="col-sm-3 col-sm-offset-1 col-xs-9 col-xs-offset-1" style="padding-left: 0px; height: 60px; border-color: transparent; background-color: transparent">
+                    <div class="logo" style=""></div>
+                </div>
+                <div class="col-sm-0 col-sm-offset-1 col-xs-1 col-xs-push-1" id="testing1" style="background-color: transparent; height: 0px;">
+                    <nav class="navbar navbar-default navbar-right" style="border-color: transparent;">
 
-<body background="img\background.jpg">
+                        <!-- Brand and toggle get grouped for better mobile display -->
 
+                        <div class="navbar-header"  style="background-color: transparent;">
+                            <button type="button"  class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-col-data-1" aria-expanded="true">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                        </div>
+                    </nav>
+                </div>
 
-    <div class="container">
-        <!-- header logo & nav-->
-        <div class="row" style="min-height: 100px; max-height: 100px; background-color: transparent;">
-            <div class="col-lg-6 col-sm-4">
-                <img src="img\logo.png" style="float: left; margin-left: 38px; margin-top: 18px; margin-bottom: 22px;">
-            </div>
-            <div class="col-lg-6 col-sm-8">
-                     <ul class="nav nav-pills" style="font-size: 8pt; color: white; float:right; margin-right: 38px">
-                            <li role="presentation"><a href="#" style="color: white;font-size: 10pt;">CART</a></li>
-                            <li role="presentation"><a href="#" style="color: white;font-size: 10pt;">LOGIN</a></li>
-                            <li role="presentation"><a href="#" style="color: white;font-size: 10pt;">REGISTER</a></li>
-                    </ul>
-                    <br>
-                    <ul class="nav nav-pills" style="float:right; margin-right: 38px">
-                        <li role="presentation"><a href="#" style="color: white; font-size: 10pt">HOME</a></li>
-                        <li role="presentation"><a href="#" style="color: white; font-size: 10pt">BROWSE</a></li>
-                        <li role="presentation"><a href="#" style="color: white; font-size: 10pt">SHOP</a></li>
-                        <li role="presentation"><a href="#" style="color: white; font-size: 10pt">SUPPORT</a></li>
-                        <li role="presentation"><a href="#" style="color: white; font-size: 10pt">CONTACT</a></li>
-                    </ul>
-            </div>
-        </div>
-        <!-- end of header -->
-        <!-- space -->
-        <div class="row" style="min-height: 22px; background-color: transparent;">
-            <h6 class="text-center" >Space</h6>
-        </div>
-        <!-- end of space -->
-        <!-- Carousel ================================================== #a6e1ec-->
-        <div class="row" style="min-height: 396px; background-color: transparent; border: 1px; border-color: white; padding: 1px 1px 1px">
-            <!-- h1 class="text-center" >
-                Banner Container(Height: 396px)
-            </h1 -->
+                <div class="col-sm-8 col-sm-pull-1">
+                    <div class="collapse navbar-collapse navbar-right col-xs-12" id="nav-col-data-1" style="background-color: transparent;">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><i class="fa fa-opencart"></i>CART</a></li>
+                            <li><a href="#"><i class="fa fa-sign-in"></i>LOGIN</a> </li>
+                            <li><a href="#"><i class="fa fa-cog"></i>REGISTER</a></li>
 
-            <!-938 by 396 -->
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                    <li data-target="#myCarousel" data-slide-to="4"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img class="first-slide" src="img/banner1-2.png" alt="First slide">
-                        <div class="container">
-                            <!-- div class="carousel-caption">
-                                <h1>Example headline.</h1>
-                                <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-                            </div -->
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img class="second-slide" src="img/banner2-1.png" alt="Second slide">
-                        <div class="container">
-                            <!--div class="carousel-caption">
-                                <h1>Another example headline.</h1>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-                            </div -->
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img class="third-slide" src="img/banner3-2.png" alt="Third slide">
-                        <div class="container">
-                            <!--div class="carousel-caption">
-                                <h1>One more for good measure.</h1>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-                            </div-->
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img class="fourth-slide" src="img/banner4.png" alt="Fourth slide">
-                        <div class="container">
-                            <!--div class="carousel-caption">
-                                <h1>One more for good measure.</h1>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-                            </div-->
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img class="fifth-slide" src="img/banner5.png" alt="Fifth slide">
-                        <div class="container">
-                            <!--div class="carousel-caption">
-                                <h1>One more for good measure.</h1>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-                            </div-->
-                        </div>
-                    </div>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+                <div class="col-sm-8 col-sm-pull-1 col-xs-0" id="testing2" style="z-index:-20; background-color: transparent; height: 22px;">
 
                 </div>
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" ></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+
+                <div class="col-sm-6 col-sm-push-1 col-xs-12" id="testing3" style="; background-color: transparent; height: 20px;">
+                    <ul class="nav nav-pills navbar-right">
+                        <li role="presentation"><a href="#"><span class="glyphicon glyphicon-home" airia-hidden="true"></span>HOME</a></li>
+                        <li role="presentation"><a href="#"><span class="glyphicon glyphicon-eye-open" airia-hidden="true"></span>BROWSE</a></li>
+                        <li role="presentation"><a href="#"><i class="fa fa-shopping-cart"></i>SHOP</a></li>
+                        <li role="presentation"><a href="#"><i class="fa fa-life-ring"></i>SUPPORT</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-8 col-sm-pull-1 col-xs-0" id="testing2" style="z-index:-20; background-color: transparent; height: 22px;">
+                </div>
+                <div class="col-sm-8 col-sm-pull-1 col-xs-0" id="testing2" style="z-index:-20; background-color: transparent; height: 1px;">
+                </div>
             </div>
         </div>
-        <!-- end of carousel -->
-        <!-- space -->
-        <div class="row" style="min-height: 22px; background-color: transparent;">
-            <h6 class="text-center" >Space (Height: 22px)</h6>
+    </div>
+    <div class="row" style="background-color: transparent; height: 22px;"></div>
+    <div class="row" style="background-color: white; border: 1px; border-color: white; padding: 1px 1px 1px">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="first-slide" src="img/banner1-2.png" alt="First slide">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <!-- h1>BAR END -25% </h1 -->
+                            <!-- p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p -->
+                            <!-- p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="second-slide" src="img/banner2-1.png" alt="Second slide">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <!-- h1>Another example headline.</h1 -->
+                            <!-- p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p -->
+                            <!-- p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="third-slide" src="img/banner3-2.png" alt="Third slide">
+                    <div class="container">
+                        <!--div class="carousel-caption">
+                            <h1>One more for good measure.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                        </div-->
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="fourth-slide" src="img/banner4.png" alt="Fourth slide">
+                    <div class="container">
+                        <!--div class="carousel-caption">
+                            <h1>One more for good measure.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                        </div-->
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="fifth-slide" src="img/banner5.png" alt="Fifth slide">
+                    <div class="container">
+                        <!--div class="carousel-caption">
+                            <h1>One more for good measure.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                        </div-->
+                    </div>
+                </div>
+
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" ></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <!-- end of space -->
-        <!-- gallery one 218 by 218 col-md-4  ================================================== -->
-        <div class="row" style="min-height: 218px; background-color: transparent;">
-            <!-- h1 class="text-center" >Gallery Content 1 (Height: 22px)</h1 -->
-            <div class="col-lg-3 col-xs-12" style="padding: 0px;"><div class="cliente" style="float: left;"><a href="#"><img src="img/gallery1-2.png"></a></div></div>
-            <div class="col-lg-3 col-xs-12" style="padding-left: 28px;"><div class="cliente" style="float: left;"><a href="#"><img src="img/gallery1-2.png"></a></div></div>
-            <div class="col-lg-3 col-xs-12" style="padding-left: 28px;"><div class="cliente" style="float: right;"><a href="#"><img src="img/gallery1-2.png"></a></div></div>
-            <div class="col-lg-3 col-xs-12" style="padding: 0px;"><div class="cliente" style="float: right;"><a href="#"><img src="img/gallery1-2.png"></a></div></div>
+    </div>
+    <div class="row" style="height: 22px;"></div>
+    <div class="row productItemRow">
+        <div class="col-sm-3 col-xs-3">
+            <img class="productItem" src="img/eastern.png" style="margin-left: -15px;">
         </div>
-        <!-- end of gallery one -->
-        <!-- spacer -->
-        <div class="row" style="min-height: 22px; background-color: transparent;">
-            <h6 class="text-center" >Space (Height: 22px)</h6>
+        <div class="col-sm-3 col-xs-3">
+            <img class="productItem" src="img/verde.png" style="margin-right: 15px;">
         </div>
-        <!-- end of spacer -->
-        <div class="row" style="min-height: 218px; background-color: transparent;">
-            <!-- h1 class="text-center" >Gallery Content 1 (Height: 22px)</h1 -->
-            <div class="col-lg-3 col-xs-12" style="padding: 0px;"><div class="cliente" style="float: left;"><a href="#"><img src="img/gallery1-2.png"></a></div></div>
-            <div class="col-lg-3 col-xs-12" style="padding-left: 28px;"><div class="cliente" style="float: left;"><a href="#"><img src="img/gallery1-2.png"></a></div></div>
-            <div class="col-lg-3 col-xs-12" style="padding-left: 28px;"><div class="cliente" style="float: right;"><a href="#"><img src="img/gallery1-2.png"></a></div></div>
-            <div class="col-lg-3 col-xs-12" style="padding: 0px;"><div class="cliente" style="float: right;"><a href="#"><img src="img/gallery1-2.png"></a></div></div>
+        <div class="col-sm-3 col-xs-3">
+            <img class="productItem" src="img/cult.png" style="margin-left: 15px;">
         </div>
-        <!-- spacer -->
-        <div class="row" style="min-height: 22px; background-color: transparent;">
-            <h6 class="text-center" >Space (Height: 22px)</h6>
+        <div class="col-sm-3 col-xs-3">
+            <img class="productItem" src="img/stolen.png" style="margin-left: 30px;">
         </div>
-        <div class="row" style="min-height: 60px; background-color: transparent;">
-            <h1 class="text-center" >Footer container (Height: 22px)</h1>
+    </div>
+    <div class="row" style="height: 22px;"></div>
+    <div class="row productItemRow">
+        <div class="col-sm-3 col-xs-3">
+            <img class="productItem" src="img/fit.png" style="margin-left: -15px;">
         </div>
+        <div class="col-sm-3 col-xs-3">
+            <img class="productItem" src="img/united.png" style="margin-right: 15px;">
+        </div>
+        <div class="col-sm-3 col-xs-3">
+            <img class="productItem" src="img/kink.png" style="margin-left: 15px;">
+        </div>
+        <div class="col-sm-3 col-xs-3">
+            <img class="productItem" src="img/wtp.png" style="margin-left: 30px;">
+        </div>
+    </div>
+    <div class="row" style="background-color: transparent; height: 22px;"></div>
+    <div class="row specialSpacer" style="background-color: white; height: 3px;"></div>
+    <div class="row" style="background-color: transparent; height: 22px;"></div>
+    <!-- footer -->
+    <div class="row" style="background-color: transparent;">
+        <div class="col-sm-4 col-xs-12  text-left" id="footerTxt1">Copyright <i class="fa fa-copyright"></i>2015 | SNKEYES.COM | All Rights Reserved</div>
+        <div class="col-sm-4 col-xs-12  text-left" id="footerTxt2" >Justin Oak | John Wang | Kathryn Huang | David Zhuchkov</div>
+        <div class="col-sm-4 col-xs-12  text-left" id="footerTxt3" >Contact Us | Privacy Statement | Locations</div>
+
 
     </div>
 
+    <div class="row">
+        <div class="nav navbar-nav navbar-right">
+            <a class="btn btn-social-icon btn-google-plus fa-align-center" href="http://google.com/+" style="color: white"><i class="fa fa-google-plus"></i></a>
+            <a class="btn btn-social-icon btn-facebook fa-align-center" href="http://www.facebook.com/profile.php?id=" style="color: white"><i class="fa fa-facebook"></i></a>
+            <a class="btn btn-social-icon btn-linkedin fa-align-center" href="http://www.linkedin.com/in/" style="color: white"><i class="fa fa-linkedin"></i></a>
+            <a class="btn btn-social-icon btn-twitter fa-align-center" href="http://twitter.com/" style="color: white"><i class="fa fa-twitter"></i></a>
+            <a class="btn btn-social-icon btn-youtube fa-align-center" href="http://youtube.com/" style="color: white"><i class="fa fa-youtube"></i></a>
+            <a class="btn btn-social-icon fa-align-center" href="mailto:"><i class="fa fa-envelope-o" style="color: white"></i></a>
+        </div>
+    </div>
+    <!-- end of carousel -->
 
+
+
+</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
